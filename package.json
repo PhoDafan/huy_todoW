@@ -1,0 +1,21 @@
+{
+  "name": "todow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix BE && npm install --prefix FE && npm run build --prefix FE",
+    "start": "npm run start --prefix BE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhoDafan/huy_todoW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhoDafan/huy_todoW/issues"
+  },
+  "homepage": "https://github.com/PhoDafan/huy_todoW#readme",
+  "description": ""
+}
